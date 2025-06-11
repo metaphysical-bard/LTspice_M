@@ -41,7 +41,7 @@ TEXT 304 224 Left 2 !.tran 10m
 
 int main() {
     std::cout << "wait..." << std::endl;
-    LTspice_M obj("test", R"(C:\Users\•¿–{ —´ˆê\AppData\Local\Programs\ADI\LTspice\)", R"(C:\Users\•¿–{ —´ˆê\Desktop\test\LTspice\)");
+    LTspice_M obj("test", R"(C:\Users\...\LTspice\)", R"(C:\Users\...\test\)");
     obj.makeFile(".asc", str);
     obj.makeNet(".asc");
     obj.makeRaw(".net");

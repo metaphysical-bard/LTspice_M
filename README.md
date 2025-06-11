@@ -32,7 +32,7 @@ This is an example of automatic simulation.<br>
 
 ## Vertion
 | DATA | VERSION | INFO |
-| :---: | :---: | :---: |
+| :---: | :---: | :--- |
 | 2025-04-29 | 0.0.0 | .raw(.tran)に対応。 |
 | 2025-04-30 | 0.0.1 | .rawファイルの扱いをraw_Mクラスに。<br>.raw(.dc)に対応。<br>.raw(.ac)に対応。 |
 | 2025-05-02 | 0.0.2 | ファイル書き込みをストリームではなくfs.write()に変更。<br>出力.csvファイルをutf-8に変更。<br>拡張子の自動付与を停止。<br>グラフ描画の補助機能と.bmp出力機能を追加。 |

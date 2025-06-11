@@ -6,4 +6,4 @@ This is a console application that converts .raw files of .dc, .tran, and .ac to
 
 ## auto
 This is an example of automatic simulation.
-![img](/auto_tool/test.bmp)
+![img](/auto/test.bmp)
